@@ -25,7 +25,10 @@ public class GlueGunTest {
     public void getDanger(){
         assertEquals(60,weaponDanger.getDangerAmount());
     }
-}
+
+
+    }
+
 
 
 

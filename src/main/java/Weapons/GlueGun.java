@@ -2,7 +2,7 @@ package Weapons;
 
 import Components.WeaponDanger;
 
-public class GlueGun extends Weapons {
+public class GlueGun extends Weapon {
     WeaponDanger weaponDanger;
 
     public GlueGun(String color, WeaponDanger weaponDanger) {

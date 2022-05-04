@@ -1,7 +1,6 @@
 package CharcterTests;
 
 import Players.Dwarf;
-import Weapons.Weapons;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,7 +10,6 @@ import Weapons.GlueGun;
 public class DrawfTest
 {
     Dwarf dwarf;
-    Weapons weapons;
     GlueGun glueGun;
 
     @Before

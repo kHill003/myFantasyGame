@@ -1,11 +1,11 @@
 package Players;
 
-import Weapons.Weapons;
+import Weapons.Weapon;
 
 import java.util.ArrayList;
 
 public class Barbarian extends Player{
-    private ArrayList<Weapons>weapons;
+    private ArrayList<Weapon>weapons;
 
     public Barbarian(String name){
         super(name);
@@ -16,7 +16,7 @@ public class Barbarian extends Player{
       return this.weapons.size();
   }
 
-  public void addVWeapon(Weapons weapon){
+  public void addVWeapon(Weapon weapon){
      this.weapons.add(weapon);
     }
 

@@ -1,12 +1,12 @@
 package Players;
 
-import Weapons.Weapons;
+import Weapons.Weapon;
 
 import java.util.ArrayList;
 
 public  abstract class Player {
     private String name;
-    private ArrayList<Weapons> weapons;
+    private ArrayList<Weapon> weapons;
 
 
 

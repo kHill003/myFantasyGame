@@ -1,7 +1,6 @@
 package CharcterTests;
 
 import Players.Barbarian;
-import Weapons.Weapons;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,7 +10,6 @@ import static org.junit.Assert.assertEquals;
 
 public class BarbarianTest {
   Barbarian barbarian;
-  Weapons   weapons;
   LightSaber lightSaber;
 
 
