@@ -1,8 +1,6 @@
 package CharcterTests;
 
-import Players.Barbarian;
 import Players.Troll;
-import com.sun.xml.internal.ws.api.pipe.Engine;
 import org.junit.Before;
 import org.junit.Test;
 

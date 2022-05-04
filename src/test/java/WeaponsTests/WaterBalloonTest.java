@@ -1,7 +1,6 @@
 package WeaponsTests;
 
 import Components.WeaponDanger;
-import Weapons.Sword;
 import Weapons.WaterBalloon;
 import org.junit.Before;
 import org.junit.Test;

@@ -1,10 +1,25 @@
 package Players;
 
-public class Barbarian extends Players{
+import Weapons.Weapons;
+
+import java.util.ArrayList;
+
+public class Barbarian extends Player{
+    private ArrayList<Weapons>weapons;
+
     public Barbarian(String name){
         super(name);
+        this.weapons = new ArrayList<>();
 
     }
+  public int getWeaponCount(){
+      return this.weapons.size();
+  }
+
+  public void addVWeapon(Weapons weapon){
+     this.weapons.add(weapon);
+    }
+
 }
 
 

@@ -1,7 +1,6 @@
 package WeaponsTests;
 
 import Components.WeaponDanger;
-import Players.Barbarian;
 import Weapons.GlueGun;
 import org.junit.Before;
 import org.junit.Test;
